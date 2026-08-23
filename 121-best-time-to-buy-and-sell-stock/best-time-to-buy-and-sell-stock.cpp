@@ -8,8 +8,7 @@ public:
         for (int price : prices) {
             if (price < minPrice) {
                 minPrice = price;
-            }
-            else {
+            } else {
                 maxProfit = max(maxProfit, price - minPrice);
             }
         }
